@@ -1,0 +1,11 @@
+D:\hkm\projects\C#\Gate pass\GatePass\GatePass\bin\Debug\GatePass.exe.config
+D:\hkm\projects\C#\Gate pass\GatePass\GatePass\bin\Debug\GatePass.exe
+D:\hkm\projects\C#\Gate pass\GatePass\GatePass\bin\Debug\GatePass.pdb
+D:\hkm\projects\C#\Gate pass\GatePass\GatePass\obj\Debug\GatePass.csproj.AssemblyReference.cache
+D:\hkm\projects\C#\Gate pass\GatePass\GatePass\obj\Debug\GatePass.csproj.SuggestedBindingRedirects.cache
+D:\hkm\projects\C#\Gate pass\GatePass\GatePass\obj\Debug\GatePass.LoginForm.resources
+D:\hkm\projects\C#\Gate pass\GatePass\GatePass\obj\Debug\GatePass.Properties.Resources.resources
+D:\hkm\projects\C#\Gate pass\GatePass\GatePass\obj\Debug\GatePass.csproj.GenerateResource.cache
+D:\hkm\projects\C#\Gate pass\GatePass\GatePass\obj\Debug\GatePass.csproj.CoreCompileInputs.cache
+D:\hkm\projects\C#\Gate pass\GatePass\GatePass\obj\Debug\GatePass.exe
+D:\hkm\projects\C#\Gate pass\GatePass\GatePass\obj\Debug\GatePass.pdb
