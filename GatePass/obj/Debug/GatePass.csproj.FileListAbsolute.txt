@@ -9,3 +9,4 @@ D:\hkm\projects\C#\Gate pass\GatePass\GatePass\obj\Debug\GatePass.csproj.Generat
 D:\hkm\projects\C#\Gate pass\GatePass\GatePass\obj\Debug\GatePass.csproj.CoreCompileInputs.cache
 D:\hkm\projects\C#\Gate pass\GatePass\GatePass\obj\Debug\GatePass.exe
 D:\hkm\projects\C#\Gate pass\GatePass\GatePass\obj\Debug\GatePass.pdb
+D:\hkm\projects\C#\Gate pass\GatePass\GatePass\obj\Debug\GatePass.DashboardForm.resources
