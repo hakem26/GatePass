@@ -45,7 +45,12 @@ namespace GatePass
 
         private void logOutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            if (MessageBox.Show("You want to Logout?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
+                this.Hide();
+                LoginForm loginForm = new LoginForm();
+                loginForm.Show();
+            }
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -53,6 +58,19 @@ namespace GatePass
             if (MessageBox.Show("You want to Exit?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
                 Application.Exit();
+            }
+        }
+
+        private void addEmployeeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (Application.OpenForms.OfType<EmployeeAdd>().Count() == 1)
+            {
+                Application.OpenForms.OfType<EmployeeAdd>().First().BringToFront();
+            }
+            else
+            {
+                EmployeeAdd employeeAdd = new EmployeeAdd();
+                employeeAdd.Show();
             }
         }
     }

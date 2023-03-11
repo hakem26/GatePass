@@ -10,3 +10,4 @@ D:\hkm\projects\C#\Gate pass\GatePass\GatePass\obj\Debug\GatePass.csproj.CoreCom
 D:\hkm\projects\C#\Gate pass\GatePass\GatePass\obj\Debug\GatePass.exe
 D:\hkm\projects\C#\Gate pass\GatePass\GatePass\obj\Debug\GatePass.pdb
 D:\hkm\projects\C#\Gate pass\GatePass\GatePass\obj\Debug\GatePass.DashboardForm.resources
+D:\hkm\projects\C#\Gate pass\GatePass\GatePass\obj\Debug\GatePass.EmployeeAdd.resources

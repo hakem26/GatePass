@@ -30,19 +30,19 @@
         {
             this.employeeToolStrip = new System.Windows.Forms.MenuStrip();
             this.employeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addEmployeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.updateEmployeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewAllEmployeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.deleteEmployeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.visitorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addVisitorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewVisitorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.updateVisitorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.generatePassToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.validatePassToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.filterPassToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addEmployeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.updateEmployeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.viewAllEmployeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.deleteEmployeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addVisitorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.viewVisitorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.updateVisitorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.welcomeText = new System.Windows.Forms.Label();
             this.employeeToolStrip.SuspendLayout();
             this.SuspendLayout();
@@ -74,6 +74,31 @@
             this.employeeToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.employeeToolStripMenuItem.Text = "Employee";
             // 
+            // addEmployeeToolStripMenuItem
+            // 
+            this.addEmployeeToolStripMenuItem.Name = "addEmployeeToolStripMenuItem";
+            this.addEmployeeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.addEmployeeToolStripMenuItem.Text = "Add Employee";
+            this.addEmployeeToolStripMenuItem.Click += new System.EventHandler(this.addEmployeeToolStripMenuItem_Click);
+            // 
+            // updateEmployeeToolStripMenuItem
+            // 
+            this.updateEmployeeToolStripMenuItem.Name = "updateEmployeeToolStripMenuItem";
+            this.updateEmployeeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.updateEmployeeToolStripMenuItem.Text = "Update Employee";
+            // 
+            // viewAllEmployeeToolStripMenuItem
+            // 
+            this.viewAllEmployeeToolStripMenuItem.Name = "viewAllEmployeeToolStripMenuItem";
+            this.viewAllEmployeeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.viewAllEmployeeToolStripMenuItem.Text = "View All Employee";
+            // 
+            // deleteEmployeeToolStripMenuItem
+            // 
+            this.deleteEmployeeToolStripMenuItem.Name = "deleteEmployeeToolStripMenuItem";
+            this.deleteEmployeeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.deleteEmployeeToolStripMenuItem.Text = "Delete Employee";
+            // 
             // visitorToolStripMenuItem
             // 
             this.visitorToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -83,6 +108,24 @@
             this.visitorToolStripMenuItem.Name = "visitorToolStripMenuItem";
             this.visitorToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
             this.visitorToolStripMenuItem.Text = "Visitor";
+            // 
+            // addVisitorToolStripMenuItem
+            // 
+            this.addVisitorToolStripMenuItem.Name = "addVisitorToolStripMenuItem";
+            this.addVisitorToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.addVisitorToolStripMenuItem.Text = "Add Visitor";
+            // 
+            // viewVisitorToolStripMenuItem
+            // 
+            this.viewVisitorToolStripMenuItem.Name = "viewVisitorToolStripMenuItem";
+            this.viewVisitorToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.viewVisitorToolStripMenuItem.Text = "View Visitor";
+            // 
+            // updateVisitorToolStripMenuItem
+            // 
+            this.updateVisitorToolStripMenuItem.Name = "updateVisitorToolStripMenuItem";
+            this.updateVisitorToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.updateVisitorToolStripMenuItem.Text = "Update Visitor";
             // 
             // generatePassToolStripMenuItem
             // 
@@ -116,54 +159,14 @@
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
-            // addEmployeeToolStripMenuItem
-            // 
-            this.addEmployeeToolStripMenuItem.Name = "addEmployeeToolStripMenuItem";
-            this.addEmployeeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.addEmployeeToolStripMenuItem.Text = "Add Employee";
-            // 
-            // updateEmployeeToolStripMenuItem
-            // 
-            this.updateEmployeeToolStripMenuItem.Name = "updateEmployeeToolStripMenuItem";
-            this.updateEmployeeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.updateEmployeeToolStripMenuItem.Text = "Update Employee";
-            // 
-            // viewAllEmployeeToolStripMenuItem
-            // 
-            this.viewAllEmployeeToolStripMenuItem.Name = "viewAllEmployeeToolStripMenuItem";
-            this.viewAllEmployeeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.viewAllEmployeeToolStripMenuItem.Text = "View All Employee";
-            // 
-            // deleteEmployeeToolStripMenuItem
-            // 
-            this.deleteEmployeeToolStripMenuItem.Name = "deleteEmployeeToolStripMenuItem";
-            this.deleteEmployeeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.deleteEmployeeToolStripMenuItem.Text = "Delete Employee";
-            // 
-            // addVisitorToolStripMenuItem
-            // 
-            this.addVisitorToolStripMenuItem.Name = "addVisitorToolStripMenuItem";
-            this.addVisitorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.addVisitorToolStripMenuItem.Text = "Add Visitor";
-            // 
-            // viewVisitorToolStripMenuItem
-            // 
-            this.viewVisitorToolStripMenuItem.Name = "viewVisitorToolStripMenuItem";
-            this.viewVisitorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.viewVisitorToolStripMenuItem.Text = "View Visitor";
-            // 
-            // updateVisitorToolStripMenuItem
-            // 
-            this.updateVisitorToolStripMenuItem.Name = "updateVisitorToolStripMenuItem";
-            this.updateVisitorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.updateVisitorToolStripMenuItem.Text = "Update Visitor";
-            // 
             // welcomeText
             // 
+            this.welcomeText.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.welcomeText.AutoSize = true;
             this.welcomeText.BackColor = System.Drawing.Color.Transparent;
             this.welcomeText.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.welcomeText.Location = new System.Drawing.Point(144, 54);
+            this.welcomeText.Location = new System.Drawing.Point(143, 55);
             this.welcomeText.Name = "welcomeText";
             this.welcomeText.Size = new System.Drawing.Size(95, 25);
             this.welcomeText.TabIndex = 1;
